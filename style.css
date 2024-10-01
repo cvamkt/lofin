@@ -217,7 +217,7 @@ footer {
     }
     footer {
     flex-direction: column; 
-      width: 90%;/* Stack footer items vertically */
+      width: full;/* Stack footer items vertically */
     }
     
 
