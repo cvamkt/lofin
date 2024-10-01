@@ -6,14 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMM Panel Signup</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
@@ -27,6 +22,9 @@
             <li><a href="#">Terms</a></li>
             <li><a href="#" class="sign-up">Sign up</a></li>
         </ul>
+        <div class="mobile-menu">
+            <span>&#9776;</span>
+        </div>
     </nav>
 
     <!-- Signup Form -->
@@ -34,32 +32,25 @@
         <h2>Sign up to <span class="highlight">SMM panel</span></h2>
         <p>Boost your social media effortlessly with our fast,<br> affordable SMM panel!</p>
         <form class="signup-form">
-            <div class="input-container">
-                <div class="input-group">
-                    <label for="full-name">Full name</label>
-                    <i class="fas fa-user"></i>
-                    <input type="text" id="full-name" placeholder=" Enter your Full name">
-                </div>
-                <div class="input-group">
-                    <label for="username">Username</label>
-                    <i class="fas fa-user"></i>
-                    <input type="text" id="username" placeholder="Enter Username">
-                </div>
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" id="email" placeholder="Enter your Email">
-                </div>
-                <div class="input-group">
-                    <label for="mobile">Mobile no.</label>
-                    <i class="fas fa-phone"></i>
-                    <input type="text" id="mobile" placeholder="Enter your mobile no.">
-                </div>
-                <div class="input-group">
-                    <label for="password">Password</label>
-                    <i class="fas fa-lock"></i>
-                    <input type="password" id="password" placeholder="Enter password">
-                </div>
+            <div class="input-group">
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" placeholder="Enter your Full name">
+            </div>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="input-group">
+                <label for="mobile">Mobile no.</label>
+                <input type="text" id="mobile" placeholder="Enter your mobile no.">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
             </div>
             <button type="submit" class="btn">Sign-up</button>
         </form>
@@ -69,84 +60,48 @@
             <div class="half-line"></div>
         </div>
         <div class="social-login">
-            <button class="btnn google-btn">
-                <img src="https://th.bing.com/th/id/OIP.lsGmVmOX789951j9Km8RagHaHa?rs=1&pid=ImgDetMain"
-                    alt="Google Icon" class="google-icon" />
-                Login with Google
-            </button>
-
-            <button class="btnn Facebook-btn">
-                <img src="https://www.freeiconspng.com/uploads/facebook-png-icon-follow-us-facebook-1.png"
-                    alt="facebook Icon" class="google-icon" />
-                Login with facebook
-            </button>
+            <button class="btn google-btn">Login with Google</button>
+            <button class="btn facebook-btn">Login with Facebook</button>
         </div>
-
-         <div class="alll">
-            <p>Already have an account? <a href="#">Login</a></p>
-        </div>
+        <p>Already have an account? <a href="#">Login</a></p>
     </div>
 
     <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div class="first">
-                <div class="logo">
-                    <h2>SMM<span style="color: blue;"> Panel</span></h2>
-                </div>
-
-                <p>Boost your social media with our reliable SMM</br>
-                    panel.Fast,secure and affordable Services for </br>
-                    followers,likes,views and more.Perfect for </br>
-                    business,influencers,and resellers.24/7 </br>
-                    support available!
-                </p>
-
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-x"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-
-                </div>
-
+            <div class="footer-column">
+                <h2>SMM Panel</h2>
+                <p>Boost your social media with our reliable SMM panel. Fast, secure, and affordable services for followers, likes, views, and more.</p>
             </div>
-            <div>
-                <ul class="quick-links">
-                    <h3>Quick Link</h3>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
                     <li><a href="#">Service</a></li>
                     <li><a href="#">API Integration</a></li>
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Reseller</a></li>
                 </ul>
             </div>
-            <div>
-                <ul class="social-links">
-                    <h3>Socials Handle Grows</h3>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">X</a></li>
-                </ul>
-            </div>
-            <div>
-                <ul class="enquiry-links">
-                    <h3>Legal</h3>
-                    <li><a href="#">Contact</a></li>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
                     <li><a href="#">FAQ</a></li>
-
                     <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
                 </ul>
-            </div>
-
-
-            <div class="hori">
-                <p>© Copyright 2022, All Rights Reserved</p>
             </div>
         </div>
     </footer>
 
+    <script>
+        // Toggle mobile menu visibility
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
