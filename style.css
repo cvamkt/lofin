@@ -227,9 +227,7 @@ footer {
     margin-bottom: 10px; /* Add spacing between the buttons */
   }
 
-  nav ul {
-    flex-direction: column; /* Stack menu items vertically */
-  }
+  
 
   footer {
     flex-direction: column; /* Stack footer items vertically */
