@@ -16,7 +16,7 @@ body {
     background-color: #fff;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex-direction: row;
+    
 }
 
 .navbar .logo {
@@ -29,6 +29,7 @@ body {
 .navbar .nav-links {
     list-style: none;
     display: flex;
+    flex-direction: row;
 }
 
 .navbar .nav-links li {
