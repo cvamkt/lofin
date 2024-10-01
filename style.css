@@ -135,17 +135,15 @@ nav ul li {
 }
 .google-btn {
 
-    display: flex;
-
-    align-items: center;
-
-    padding: 10px 20px;
-
-    background-color: #38acff;
-    font-size: 16px;
-    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
 /* .google-btn:hover {
@@ -161,17 +159,15 @@ nav ul li {
 
 /* fbb */
 .Facebook-btn {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #38acff;
-    /* border: 1px solid #DB4437; */
-    /* border-radius: 5px; */
-    /* color: #555; */
-    font-size: 16px;
-    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
 /* .Facebook-btn:hover {
